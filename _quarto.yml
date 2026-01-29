@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - people.qmd
+    - research.qmd
+    - media.qmd
+    - contact.qmd
+  resources:
+    - images/
+    - styles/
+    - _extensions/
+
+website:
+  title: "MEEM Lab"
+  site-url: "https://vuw-meem-lab.github.io/website/"
+  navbar:
+    logo: images/logo.png
+    left:
+      - text: Home
+        file: index.qmd
+      - text: People
+        file: people.qmd
+      - text: Research
+        file: research.qmd
+      - text: Media
+        file: media.qmd
+      - text: Get Involved
+        file: contact.qmd
+  favicon: images/meem-logo.png
+  page-footer:
+    left: "© 2026 MEEM Lab, Victoria University of Wellington"
+    right: "Built with Quarto"
+  page-navigation: true
+  back-to-top-navigation: true
+
+format:
+  html:
+    theme: styles/meemlab.scss
+    toc: true
+    toc-location: left
+    code-copy: true
+    code-overflow: wrap
+    link-external-icon: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    css: styles/custom.css

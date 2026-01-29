@@ -1,0 +1,158 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Quarto Render",
+			"type": "shell",
+			"command": "quarto render",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}

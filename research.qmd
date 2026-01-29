@@ -1,0 +1,70 @@
+---
+title: "Research"
+---
+
+### Uncovering the functioning and importance of temperate mesophotic ecosystems
+
+::: {.callout .collapsible}
+Funded by the Royal Society Te Apārangi Marsden Fund. 
+**Associate Investigators:** [Dr. James Bell](https://people.wgtn.ac.nz/james.bell), [Dr. Pim Bongaerts](https://www.calacademy.org/staff/ibss/invertebrate-zoology-and-geology/pim-bongaerts), [Dr. Sarah Bury](https://niwa.co.nz/people/sarah-bury)  
+**Postdoctoral Researchers:** [Dr. Francesca Strano](https://niwa.co.nz/people/francesca-strano)  
+**Research Assistants:** Dr. Chelsey Beese, Matteo Collina  
+**PhD Students:** Emma Novak, Mollie Rickwood
+:::
+
+
+Temperate mesophotic ecosystems (TMEs) are the "twilight zone" of our oceans, found at depths of 30–150 metres where little sunlight remains. Unlike shallow seas dominated by seaweeds, TMEs are rich in sponges, sea fans, and other animals adapted to low light. These habitats create complex structures that support diverse marine life, including fish and crustaceans, and may provide refuges from marine heatwaves and other climate impacts.
+
+Despite their ecological and economic importance, TMEs remain under-researched and vulnerable to threats like fishing, sedimentation, and physical disturbance. Our Marsden Fund project uses new technology—such as remotely operated vehicles (ROVs)—to explore, document, and model these unique ecosystems, aiming to inform their protection and management for the future.
+
+**Learn more:** [Into the ocean twilight zone: how new technology is revealing the secrets of an under-researched undersea world (The Conversation/Greenpeace)](https://www.greenpeace.org/aotearoa/story/into-the-ocean-twilight-zone-how-new-technology-is-revealing-the-secrets-of-an-under-researched-undersea-world/#:~:text=Greenpeace-,Into%20the%20ocean%20twilight%20zone:%20how%20new%20technology%20is%20revealing,to%20these%20extraordinary%20undersea%20regions.)
+
+### Climate change at the end of the earth: sevengill sharks in Fiordland, New Zealand
+**Funding:** Save Our Seas Foundation
+
+This project aims to understand how climate change and extreme weather events will impact the broadnose sevengill shark (Notorynchus cepedianus) in Fiordland, New Zealand. Sevengill sharks are a key top predator, recently listed as Vulnerable on the IUCN Red List, and play a vital role in coastal ecosystems. The project investigates how changes in water temperature, salinity, and prey availability affect the sharks’ movements, habitat use, and survival, with the goal of informing management to ensure their future.
+
+**Learn more:** [Save Our Seas Project Page](https://saveourseas.com/project/climate-change-at-the-end-of-the-earth-sevengill-sharks-in-fiordland-new-zealand/)
+
+## Publications
+
+- **Temporal trends in benthic community composition differ between shallow and mesophotic temperate rocky reefs**  
+	*Marine Ecology Progress Series*, 25 Nov 2025. Inter-Research Science Center.  
+	Co-authors: Broadribb M, Rogers A, Micaroni V...2 more  
+	[DOI: 10.3354/meps15052](https://doi.org/10.3354/meps15052)
+
+- **Exposure of an intertidal fish to simulated heatwaves and suspended sediment – a multistressor approach**  
+	*Journal of Thermal Biology*, 1 Aug 2025, 132.  
+	Co-authors: Resende AC, Vinagre C, Rogers A  
+	[DOI: 10.1016/j.jtherbio.2025.104260](https://doi.org/10.1016/j.jtherbio.2025.104260)
+
+- **Exploring the consequences of complex habitat loss for the New Zealand blue cod, Parapercis colias**  
+	*Ecosphere*, 1 Mar 2025, 16(3).  
+	Co-authors: Wade BL, Resende AC, Willis-Kaio D...1 more  
+	[DOI: 10.1002/ecs2.70233](https://doi.org/10.1002/ecs2.70233)
+
+- **Thanatosis in juvenile notolabrus celidotus, the New Zealand spotty wrasse**  
+	*Acta Ethologica*, 1 Feb 2025, 28(1):45-48.  
+	Co-authors: Resende AC, Streatfield J, Rogers A  
+	[DOI: 10.1007/s10211-025-00455-1](https://doi.org/10.1007/s10211-025-00455-1)
+
+- **Mesophotic thermal refuge modelling shows mitigated reductions in fisheries productivity during marine heatwaves**  
+	*Frontiers in Marine Science*, 1 Jan 2025, 12.  
+	Co-authors: Beran H, Datta S, Smith RO...4 more  
+	[DOI: 10.3389/fmars.2025.1540055](https://doi.org/10.3389/fmars.2025.1540055)
+
+- **The Impacts of Warming on Shallow and Deep-Water Fisheries in New Zealand**  
+	*Earth's Future*, 1 Dec 2024, 12(12).  
+	Co-authors: Datta S, Beran H, Rogers A  
+	[DOI: 10.1029/2024EF004857](https://doi.org/10.1029/2024EF004857)
+
+- **Small-scale habitat complexity preserves ecosystem services on coral reefs**  
+	*Journal of Applied Ecology*, 1 Sep 2023, 60(9):1854-1867.  
+	Co-authors: Beese CM, Mumby PJ, Rogers A  
+	[DOI: 10.1111/1365-2664.14458](https://doi.org/10.1111/1365-2664.14458)
+
+- **How functionally diverse are fish in the deep? A comparison of fish communities in deep and shallow-water systems**  
+	*Diversity and Distributions*, 1 Jul 2021, 27(7):1208-1223.  
+	Co-authors: Carrington VG, Papa Y, Beese CM...5 more  
+	[DOI: 10.1111/ddi.13268](https://doi.org/10.1111/ddi.13268)
+

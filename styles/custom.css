@@ -1,0 +1,26 @@
+/* custom.css: Additional tweaks for MEEM Lab site */
+
+.people-list {
+  margin-top: 2rem;
+}
+
+.profile-photo {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  transition: transform 0.2s;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .people-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+}

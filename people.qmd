@@ -1,0 +1,109 @@
+---
+engine: knitr
+---
+::: {.person-card-flex}
+
+
+#### Dr. Alice Rogers <span class="person-pronouns">(she/her)</span>
+
+![](images/alice-rogers.jpg){.person-photo .person-photo-large alt="Alice Rogers head shot"}
+
+**Senior Lecturer in Fisheries Biology**  
+**Director, Victoria University Coastal Ecology Lab**
+
+Alice is a marine ecologist and quantitative fisheries scientist. She leads the MEEM Lab and the Coastal Ecology Lab at Victoria University of Wellington. Her research focuses on how climate change, fisheries, and other stressors impact coastal ecosystems, and how management can be improved to ensure these ecosystems survive and thrive for future generations. Alice completed her PhD at [Imperial College London](https://www.imperial.ac.uk/) in 2011, studying the population dynamics of Caribbean sea urchins. Originally from central England, she has worked and dived in the UK, Honduras, French Polynesia, Australia, and New Zealand. Alice is passionate about interdisciplinary, collaborative science and works closely with iwi, government, and community partners. She is committed to mentoring students and fostering equity and diversity in marine science. Alice's favourite fish is the harlequin sweetlips (*Plectorhinchus chaetodonoides*).
+
+:::
+
+## Current Lab Members
+
+::: {.people-list}
+```{r print-bios, echo=FALSE, results='asis'}
+library(yaml)
+library(stringr)
+
+people_files <- list.files('people', pattern = '\\.(md|qmd)$', full.names = TRUE)
+
+render_person <- function(yaml, bio) {
+  # If profile_link exists, make the name a link; otherwise, fall back to LinkedIn; otherwise, plain name
+  if (!is.null(yaml$profile_link) && nzchar(yaml$profile_link)) {
+    name_html <- paste0('<a href="', yaml$profile_link, '" target="_blank">', yaml$name, '</a>')
+  } else if (!is.null(yaml$links$linkedin)) {
+    name_html <- paste0('<a href="', yaml$links$linkedin, '" target="_blank" class="person-linkedin">', yaml$name, '</a>')
+  } else {
+    name_html <- yaml$name
+  }
+  name_and_pronouns <- paste0('<span class="person-name">', name_html, '</span>',
+    if (!is.null(yaml$pronouns)) paste0('<span class="person-pronouns"> (', yaml$pronouns, ')</span>') else '')
+  photo_html <- if (!is.null(yaml$photo)) paste0('<img src="', yaml$photo, '" class="person-photo" alt="', yaml$name, '">') else ''
+  links_html <- ''
+  if (!is.null(yaml$links)) {
+    link_icons <- list(
+      linkedin = '<i class="bi bi-linkedin"></i>',
+      project = '<i class="bi bi-link-45deg"></i>',
+      funding = '<i class="bi bi-cash"></i>'
+    )
+    for (type in names(yaml$links)) {
+      # Don't render LinkedIn icon if name is already a link
+      if (type == 'linkedin') next
+      icon <- link_icons[[type]]
+      url <- yaml$links[[type]]
+      if (!is.null(icon) && !is.null(url)) {
+        links_html <- paste0(links_html, '<a href="', url, '" target="_blank" class="person-link person-link-', type, '">', icon, '</a> ')
+      }
+    }
+    if (links_html != '') links_html <- paste0('<div class="person-links">', links_html, '</div>')
+  }
+  bio_html <- paste0('<div class="person-bio">', bio, '</div>')
+  return(paste0(
+    '<div class="person-card-flex">',
+      '<div class="person-card-header">',
+        '<div class="person-name-row">', name_and_pronouns, '</div>',
+      '</div>',
+      '<div class="person-card-body">',
+        photo_html,
+        '<div class="person-card-details">',
+          links_html, bio_html,
+        '</div>',
+      '</div>',
+    '</div>'
+  ))
+}
+
+any_rendered <- FALSE
+for (f in people_files) {
+  lines <- readLines(f, warn = FALSE)
+  # Find the first YAML block (--- ... ---)
+  yaml_start <- which(trimws(lines) == '---')[1]
+  yaml_end <- which(trimws(lines) == '---' & seq_along(lines) > yaml_start)[1]
+  if (!is.na(yaml_start) && !is.na(yaml_end) && yaml_end > yaml_start) {
+    yaml_lines <- lines[(yaml_start+1):(yaml_end-1)]
+    bio_lines <- lines[(yaml_end+1):length(lines)]
+    yaml_obj <- yaml.load(paste(yaml_lines, collapse = '\n'))
+    bio <- paste(bio_lines, collapse = '\n')
+    cat(render_person(yaml_obj, bio))
+    any_rendered <- TRUE
+  } else {
+    cat(paste0('<div class="person-error">Could not parse ', f, '</div>'))
+  }
+}
+if (!any_rendered) cat('<div class="person-error">No valid people found.</div>')
+```
+:::
+
+## Past Members
+::: {.columns}
+::: {.column width="50%"}
+[Dr. Manon Broadribb](https://www.otago.ac.nz/) (2020 - 2025)  
+[Danielle Willis-Kaio](https://www.victoria.ac.nz/) (2022 - 2024)  
+[Andy Chang]() (2018 - 2021)  
+:::
+::: {.column width="50%"}
+[Dr. Francesca Strano](https://niwa.co.nz/people/francesca-strano) (2024)  
+[Callum Long]() (2020 - 2022)  
+[Baylee Wade]() (2018 - 2020)  
+[Victoria Carrington]() (2018 - 2022)  
+:::
+:::
+
+<!-- To add more past members, just add them to either column above. For best balance, keep the number of names in each column roughly equal. -->
