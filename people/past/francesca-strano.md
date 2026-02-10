@@ -2,7 +2,7 @@
 name: Dr. Francesca Strano
 vuwemail: 
 pronouns: she/her
-photo: images/placeholder.png
+photo: images/people/placeholder.png
 role: postdoc
 year_started: 2024
 year_end: 2024

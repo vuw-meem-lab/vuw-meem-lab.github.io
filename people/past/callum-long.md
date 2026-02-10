@@ -2,7 +2,7 @@
 name: Callum Long
 vuwemail: 
 pronouns: 
-photo: images/placeholder.png
+photo: images/people/placeholder.png
 role: masters
 year_started: 2020
 year_end: 2022

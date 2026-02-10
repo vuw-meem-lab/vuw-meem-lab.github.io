@@ -6,7 +6,7 @@
 name: Anna Resende
 vuwemail: anna.resende@vuw.ac.nz
 pronouns: she/her
-photo: images/placeholder.png
+photo: images/people/placeholder.png
 role: phd
 year_started: 2023
 

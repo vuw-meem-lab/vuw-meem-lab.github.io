@@ -6,7 +6,7 @@
 name: Jamie Lee
 vuwemail: jamie.lee@vuw.ac.nz
 pronouns: they/them
-photo: images/placeholder.png
+photo: images/people/placeholder.png
 role: masters
 year_started: 2025
 

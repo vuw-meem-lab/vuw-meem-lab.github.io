@@ -1,3 +1,8 @@
+---
+author: Marine Ecology and Ecosystem Modelling (MEEM) Lab
+description: "Contact the MEEM Lab at Victoria University of Wellington for research, collaboration, and student opportunities."
+keywords: [contact, marine ecology, ecosystem modelling, Wellington, New Zealand, research, collaboration, scholarships]
+---
 # Contact Us
 
 

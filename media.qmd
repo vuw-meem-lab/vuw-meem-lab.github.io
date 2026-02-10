@@ -1,11 +1,13 @@
 ---
 title: "Media & News"
+author: Marine Ecology and Ecosystem Modelling (MEEM) Lab
+description: "MEEM Lab media and news coverage: articles, podcasts, and appearances."
+keywords: [media, news, marine ecology, Wellington, New Zealand, research, podcasts]
 ---
 
 ## In the News
 
 - [Into the ocean twilight zone: how new technology is revealing the secrets of an under-researched undersea world](https://www.greenpeace.org/aotearoa/story/into-the-ocean-twilight-zone-how-new-technology-is-revealing-the-secrets-of-an-under-researched-undersea-world/#:~:text=Greenpeace-,Into%20the%20ocean%20twilight%20zone:%20how%20new%20technology%20is%20revealing,to%20these%20extraordinary%20undersea%20regions.) — The Conversation/Greenpeace, 29 May 2022. By James Bell, Alice Rogers, Francesca Strano, and Valerio Micaroni.
-
 - [Our Changing World: Tracking Fiordland's sharks](https://www.rnz.co.nz/news/ourchangingworld/543123/our-changing-world-tracking-fiordland-s-sharks) — RNZ, 2026.
 
 ## Media Appearances

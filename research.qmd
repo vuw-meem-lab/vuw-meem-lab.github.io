@@ -1,8 +1,12 @@
 ---
-title: "Research"
 bibliography: publications.bib
 csl: ecology.csl
+author: Marine Ecology and Ecosystem Modelling (MEEM) Lab
+description: "MEEM Lab research projects: ecosystem modelling, climate change, fisheries, and conservation."
+keywords: [research, marine ecology, ecosystem modelling, climate change, fisheries, Wellington, New Zealand, conservation]
 ---
+
+## Current Projects
 
 ### Uncovering the functioning and importance of temperate mesophotic ecosystems
 
@@ -30,7 +34,7 @@ This project aims to understand how climate change and extreme weather events wi
 
 **Learn more:** [Save Our Seas Project Page](https://saveourseas.com/project/climate-change-at-the-end-of-the-earth-sevengill-sharks-in-fiordland-new-zealand/)
 
-### Publications
+## Publications
 
 <!--
 This section is now automated using the publications.bib file.

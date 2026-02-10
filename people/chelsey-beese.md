@@ -6,7 +6,7 @@
 name: Chelsey Beese  # REQUIRED: Replace with your full name (e.g., Jane Doe)
 vuwemail:  # REQUIRED: Your VUW email address (used as a mailto link behind your name)
 pronouns: she/her  # OPTIONAL: Your pronouns (e.g., she/her, he/him, they/them)
-photo: images/chelsey-beese.jpg  # OPTIONAL: Path to your photo (or leave as is for a placeholder)
+photo: images/people/chelsey-beese.jpg  # OPTIONAL: Path to your photo (or leave as is for a placeholder)
 role: ra   # REQUIRED: Choose one - postdoc, ra, phd, or masters (e.g., ra)
 year_started:   # REQUIRED: The year you started (e.g., 2024)
 

@@ -2,7 +2,7 @@
 name: Danielle Willis-Kaio
 vuwemail: 
 pronouns: she/her
-photo: images/placeholder.png
+photo: images/people/placeholder.png
 role: masters
 year_started: 2022
 year_end: 2024

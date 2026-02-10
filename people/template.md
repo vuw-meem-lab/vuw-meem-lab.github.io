@@ -12,7 +12,7 @@
 name: Full Name  # REQUIRED: Replace with your full name (e.g., Jane Doe)
 vuwemail: firstname.lastname@vuw.ac.nz  # REQUIRED: Your VUW email address (used as a mailto link behind your name)
 pronouns: they/them  # OPTIONAL: Your pronouns (e.g., she/her, he him, they/them)
-photo: images/placeholder.png  # OPTIONAL: Path to your photo (or leave as is for a placeholder)
+photo: images/people/placeholder.png  # OPTIONAL: Path to your photo (or leave as is for a placeholder)
 role: postdoc   # REQUIRED: Choose one - postdoc, ra, phd, or masters (e.g., ra)
 year_started: 2026  # REQUIRED: The year you started (e.g., 2024)
 year_end: 2026  # OPTIONAL: The year you finished (e.g., 2024)

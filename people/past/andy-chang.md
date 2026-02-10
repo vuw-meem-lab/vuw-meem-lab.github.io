@@ -2,7 +2,7 @@
 name: Andy Chang
 vuwemail: 
 pronouns: 
-photo: images/placeholder.png
+photo: images/people/placeholder.png
 role: masters
 year_started: 2018
 year_end: 2021

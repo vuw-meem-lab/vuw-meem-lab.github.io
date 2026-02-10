@@ -18,8 +18,16 @@ website:
   navbar:
     logo: images/logo.png
     left:
-      - text: Home
-        file: index.qmd
+      - text: People
+        file: people.qmd
+      - text: Research
+        file: research.qmd
+      - text: Media
+        file: media.qmd
+      - text: Gallery
+        file: gallery.qmd
+      - text: Get Involved
+        file: contact.qmd
       - text: People
         file: people.qmd
       - text: Research
