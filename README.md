@@ -17,6 +17,10 @@ This repository contains the Quarto-based website for the MEEM Lab at Victoria U
 - **_extensions/**: Custom Quarto Lua filters/extensions (e.g., for people profiles)
 - **_site/**: Generated site output (do not edit directly)
 
+## Image Copyright & License
+
+All photos and images in this repository and on the MEEM Lab website are © 2026 MEEM Lab, Victoria University of Wellington. All rights reserved. Unauthorized use, reproduction, or distribution is strictly prohibited unless explicit written permission is granted by the lab.
+
 ## Editing Content
 
 ### Adding Images to the Gallery

@@ -22,13 +22,22 @@ The Marine Ecology and Ecosystem Modelling (MEEM) Lab is part of the [School of 
 
 Our research spans deep sea, shallow-water, and coastal communities, with a particular focus on how climate change and human activities affect fish populations and fisheries. Combining field data collection with advanced ecosystem modelling, we investigate how habitat change and degradation influence both tropical and temperate fish communities—from coral reefs to kelp forests. Our goal is to promote long-term sustainability by providing robust scientific tools and insights for ecosystem and fisheries managers, supporting the conservation and responsible management of marine resources.
 
+
+
 We collaborate with many organisations, including [Wellington City Council](https://wellington.govt.nz/), the [Department of Conservation (DOC)](https://www.doc.govt.nz/), [NIWA](https://niwa.co.nz/), and the [Save Our Seas Foundation](https://saveourseas.com/).
 
----
+
 
 Explore our research, meet our people, and get involved!
 
 
-![Lab shark photo](images/shark.jpg)
+![Lab shark photo](images/shark.jpg){alt="reef shark" aria-label="reef shark"}
 
 
+---
+
+<div style="text-align:center; margin-top:2rem; color:#888; font-size:0.95em;">
+Last updated: `r format(Sys.Date(), '%Y-%m-%d')`
+</div>
+    
+---

@@ -36,7 +36,7 @@ website:
         file: media.qmd
       - text: Get Involved
         file: contact.qmd
-  favicon: images/meem-logo.png
+  favicon: images/favicon/favicon.ico
   page-footer:
     left: "© 2026 MEEM Lab, Victoria University of Wellington"
     right: "Built with Quarto"

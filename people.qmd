@@ -60,9 +60,6 @@ render_person <- function(yaml, bio) {
     '<div class="person-card-flex">',
       '<div class="person-card-header">',
         '<div class="person-name-row">', name_and_pronouns, '</div>',
-      author: Marine Ecology and Ecosystem Modelling (MEEM) Lab
-      description: "Meet the MEEM Lab team: marine ecologists, researchers, and students at Victoria University of Wellington."
-      keywords: [people, lab members, marine ecology, Wellington, New Zealand, research, students]
         photo_html,
         '<div class="person-card-details">',
           links_html, bio_html,
