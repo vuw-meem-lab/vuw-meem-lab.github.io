@@ -1,12 +1,13 @@
 ---
 title: "Research"
 bibliography: publications.bib
+csl: ecology.csl
 ---
 
 ### Uncovering the functioning and importance of temperate mesophotic ecosystems
 
 ::: {.callout .collapsible}
-Funded by the Royal Society Te Apārangi Marsden Fund. <br>
+Funded by the [Royal Society Te Apārangi Marsden Fund](https://www.royalsociety.org.nz/what-we-do/funds-and-opportunities/marsden/). <br>
 **Associate Investigators:** [Dr. James Bell](https://people.wgtn.ac.nz/james.bell), [Dr. Pim Bongaerts](https://www.calacademy.org/staff/ibss/invertebrate-zoology-and-geology/pim-bongaerts), [Dr. Sarah Bury](https://niwa.co.nz/people/sarah-bury) <br>
 **Postdoctoral Researchers:** [Dr. Francesca Strano](https://niwa.co.nz/people/francesca-strano) <br>
 **Research Assistants:** Dr. Chelsey Beese, Matteo Collina <br>
@@ -37,6 +38,8 @@ To add or update publications, simply edit publications.bib in the project folde
 Quarto will render the bibliography automatically.
 Publications are sorted by year (descending) using the 'sort' option below.
 -->
+
+<!-- Dummy citation to force bibliography rendering: [@Broadribb2026] -->
 
 ::: {.bibliography sort="descending"}
 <!-- The list below is generated from publications.bib. -->
