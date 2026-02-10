@@ -23,13 +23,31 @@ end
 local function render_profile(meta, bio)
   local photo = meta.photo or "images/placeholder.png"
   local name = meta.name or "[No Name]"
+add res  if meta.vuwemail and #tostring(meta.vuwemail) > 0 then
+    name = string.format("<a href='mailto:%s'>%s</a>", meta.vuwemail, meta.name)
+  end
   local pronouns = meta.pronouns and (" (" .. meta.pronouns .. ")") or ""
   local role = meta.role and ("<div class='person-role'>" .. meta.role .. "</div>") or ""
   local project = meta.project and ("<div class='person-project'>" .. meta.project .. "</div>") or ""
   local links = ""
   if meta.links then
     for k, v in pairs(meta.links) do
-      local icon = k == "linkedin" and "<i class='bi bi-linkedin'></i>" or k == "project" and "<i class='bi bi-link-45deg'></i>" or k == "funding" and "<i class='bi bi-cash'></i>" or ""
+      local icon = ""
+      if k == "linkedin" then
+        icon = "<i class='bi bi-linkedin'></i>"
+      elseif k == "project" then
+        icon = "<i class='bi bi-link-45deg'></i>"
+      elseif k == "funding" then
+        icon = "<i class='bi bi-cash'></i>"
+      elseif k == "orcid" then
+        icon = "<i class='ai ai-orcid'></i>" -- Requires Academicons or similar
+      elseif k == "scholar" then
+        icon = "<i class='ai ai-google-scholar'></i>" -- Requires Academicons or similar
+      elseif k == "researchgate" then
+        icon = "<i class='ai ai-researchgate'></i>" -- Requires Academicons or similar
+      else
+        icon = "<i class='bi bi-link-45deg'></i>" -- Generic link icon
+      end
       links = links .. string.format("<a href='%s' target='_blank' class='person-link person-link-%s'>%s</a> ", v, k, icon)
     end
     if links ~= "" then links = "<div class='person-links'>" .. links .. "</div>" end

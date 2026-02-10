@@ -25,7 +25,6 @@ library(stringr)
 people_files <- list.files('people', pattern = '\\.(md|qmd)$', full.names = TRUE)
 
 render_person <- function(yaml, bio) {
-  # If profile_link exists, make the name a link; otherwise, fall back to LinkedIn; otherwise, plain name
   if (!is.null(yaml$profile_link) && nzchar(yaml$profile_link)) {
     name_html <- paste0('<a href="', yaml$profile_link, '" target="_blank">', yaml$name, '</a>')
   } else if (!is.null(yaml$links$linkedin)) {
@@ -44,7 +43,6 @@ render_person <- function(yaml, bio) {
       funding = '<i class="bi bi-cash"></i>'
     )
     for (type in names(yaml$links)) {
-      # Don't render LinkedIn icon if name is already a link
       if (type == 'linkedin') next
       icon <- link_icons[[type]]
       url <- yaml$links[[type]]
@@ -73,7 +71,6 @@ render_person <- function(yaml, bio) {
 any_rendered <- FALSE
 for (f in people_files) {
   lines <- readLines(f, warn = FALSE)
-  # Find the first YAML block (--- ... ---)
   yaml_start <- which(trimws(lines) == '---')[1]
   yaml_end <- which(trimws(lines) == '---' & seq_along(lines) > yaml_start)[1]
   if (!is.na(yaml_start) && !is.na(yaml_end) && yaml_end > yaml_start) {
@@ -92,18 +89,52 @@ if (!any_rendered) cat('<div class="person-error">No valid people found.</div>')
 :::
 
 ## Past Members
-::: {.columns}
-::: {.column width="50%"}
-[Dr. Manon Broadribb](https://www.otago.ac.nz/) (2020 - 2025)  
-[Danielle Willis-Kaio](https://www.victoria.ac.nz/) (2022 - 2024)  
-[Andy Chang]() (2018 - 2021)  
-:::
-::: {.column width="50%"}
-[Dr. Francesca Strano](https://niwa.co.nz/people/francesca-strano) (2024)  
-[Callum Long]() (2020 - 2022)  
-[Baylee Wade]() (2018 - 2020)  
-[Victoria Carrington]() (2018 - 2022)  
-:::
-:::
 
-<!-- To add more past members, just add them to either column above. For best balance, keep the number of names in each column roughly equal. -->
+::: {.columns}
+```{r past-members, echo=FALSE, results='asis'}
+# Load required libraries
+library(yaml)
+library(stringr)
+
+# Get all markdown files for past members
+target_dir <- 'people/past'
+past_files <- list.files(target_dir, pattern = '\\.(md|qmd)$', full.names = TRUE)
+
+# Extract name, link, and years from each file
+describe_past_member <- function(f) {
+  lines <- readLines(f, warn = FALSE)
+  yaml_start <- which(trimws(lines) == '---')[1]
+  yaml_end <- which(trimws(lines) == '---' & seq_along(lines) > yaml_start)[1]
+  if (!is.na(yaml_start) && !is.na(yaml_end) && yaml_end > yaml_start) {
+    yaml_lines <- lines[(yaml_start+1):(yaml_end-1)]
+    yaml_obj <- yaml.load(paste(yaml_lines, collapse = '\n'))
+    name <- yaml_obj$name
+    url <- yaml_obj$links$link1
+    year_start <- yaml_obj$year_started
+    year_end <- yaml_obj$year_end
+    years <- paste0('(', year_start, ' - ', year_end, ')')
+    # If a link is provided, make the name a link
+    if (!is.null(url) && nzchar(url)) {
+      paste0('[', name, '](', url, ') ', years)
+    } else {
+      paste0(name, ' ', years)
+    }
+  } else {
+    NULL
+  }
+}
+
+# Build a list of formatted past member entries
+past_members <- lapply(past_files, describe_past_member)
+past_members <- Filter(Negate(is.null), past_members)
+
+# Split the list into two columns for display
+n <- length(past_members)
+col1 <- past_members[1:ceiling(n/2)]
+col2 <- past_members[(ceiling(n/2)+1):n]
+
+# Print the columns in Quarto layout
+cat('::: {.column width="50%"}\n', paste(col1, collapse='  \n'), '\n:::\n')
+cat('::: {.column width="50%"}\n', paste(col2, collapse='  \n'), '\n:::\n')
+```
+:::
