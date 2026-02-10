@@ -29,6 +29,6 @@ We collaborate with many organisations, including [Wellington City Council](http
 Explore our research, meet our people, and get involved!
 
 
-![Lab shark photo](images/shark.jpg){width=420px style="display:block;margin:2rem auto 1rem auto;border-radius:18px;" alt="Lab member diving with shark" aria-label="Lab shark photo"}
+![Lab shark photo](images/shark.jpg)
 
 
