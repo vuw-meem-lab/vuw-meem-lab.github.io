@@ -14,8 +14,7 @@ This repository contains the Quarto-based website for the MEEM Lab at Victoria U
 - **people/**: Individual Markdown files for each lab member
 - **images/**: Photos and other images used on the site
 - **styles/**: Custom CSS and SCSS for site styling
-- **_extensions/**: Custom Quarto Lua filters/extensions (e.g., for people profiles)
-- **_site/**: Generated site output (do not edit directly)
+- **_site/**: Generated site output (not tracked in git; rebuilt by `quarto render` and published by CI)
 
 ## Image Copyright & License
 
