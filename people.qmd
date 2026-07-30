@@ -1,12 +1,16 @@
 ---
 engine: knitr
+title: "People"
+description: "Meet the MEEM Lab team at Victoria University of Wellington: postdocs, PhD and master's students, and lab alumni."
+keywords: [people, lab members, marine ecology, Wellington, New Zealand, postdoc, PhD, masters]
 ---
+
 ::: {.person-card-flex}
 
 
 #### Dr. Alice Rogers <span class="person-pronouns">(she/her)</span>
 
-![](images/alice-rogers.jpg){.person-photo .person-photo-large alt="Alice Rogers head shot"}
+![](images/people/alice-rogers.jpg){.person-photo .person-photo-large alt="Alice Rogers head shot"}
 
 **Senior Lecturer in Fisheries Biology**  
 **Director, Victoria University Coastal Ecology Lab**

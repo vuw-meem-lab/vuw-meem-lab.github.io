@@ -1,17 +1,6 @@
-.person-photo-large {
-  width: 1.7in;
-  height: 2.1in;
-  border-radius: 18px;
-  border-width: 4px;
-}
-.person-name-row {
-  display: inline-block;
-  white-space: nowrap;
-  margin-bottom: 0.1rem;
-}
-/* meemlab.scss: Quarto custom theme using MEEM Lab logo colors */
-
 /*-- scss:defaults --*/
+
+// meemlab.scss: Quarto custom theme using MEEM Lab logo colors
 $primary: #343F66; // Dark navy blue
 $secondary: #34A2B0; // Teal
 $accent: #4CA4A5; // Medium teal (for accents)
@@ -25,7 +14,6 @@ body {
   color: $text;
 }
 
-
 .navbar, .navbar-brand {
   background-color: $primary;
   color: $background;
@@ -37,11 +25,9 @@ body {
   max-height: 90px !important;
 }
 
-
 a {
   color: $secondary;
 }
-
 
 .people-list {
   display: flex;
@@ -58,22 +44,6 @@ a {
   width: 100%;
 }
 
-
-// Profile picture style for people cards
-
-.person-photo {
-  width: 1.1in;
-  height: 1.4in;
-  object-fit: cover;
-  border-radius: 14px;
-  border: 3px solid $secondary;
-  box-shadow: 0 2px 8px rgba(52,162,176,0.10);
-  margin-bottom: 0;
-  margin-right: 1.2rem;
-  background: #fff;
-  display: block;
-}
-
 .person-card-flex {
   display: flex;
   flex-direction: column;
@@ -81,17 +51,20 @@ a {
   margin-bottom: 1.5rem;
   width: 100%;
 }
+
 .person-card-header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 0.2rem;
 }
+
 .person-card-body {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .person-card-details {
   display: flex;
   flex-direction: column;
@@ -108,12 +81,19 @@ a {
   align-items: flex-start;
 }
 
+.person-name-row {
+  display: inline-block;
+  white-space: nowrap;
+  margin-bottom: 0.1rem;
+}
+
 .person-name {
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: 0.1rem;
   display: inline;
 }
+
 .person-pronouns {
   font-size: 0.7rem;
   color: $secondary;
@@ -121,28 +101,68 @@ a {
   margin-bottom: 0.1rem;
   display: inline;
 }
+
 .person-project {
   font-size: 1.05rem;
   font-style: italic;
   color: $primary;
   margin-bottom: 0.4rem;
 }
+
+// Profile picture style for people cards
 .person-photo {
-  border: 1px solid #009999;
-  border-radius: 8px;
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  margin-right: 1.5rem;
-  margin-top: 0.2rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-}
-.person-photo-large {
-  width: 160px;
+  width: 130px;
   height: 160px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 3px solid $secondary;
+  box-shadow: 0 2px 8px rgba(52, 162, 176, 0.15);
+  margin-top: 0.2rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+  background: #fff;
+  display: block;
 }
+
+// Larger variant used for the lab director's photo (combined with .person-photo)
+.person-photo-large {
+  width: 200px;
+  height: 250px;
+  border-radius: 18px;
+  border-width: 4px;
+}
+
+.person-email {
+  margin-left: 0.4em;
+  color: $secondary;
+}
+
 .person-bio {
   margin-top: 0.5rem;
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+.person-links {
+  margin-top: 0.4rem;
+}
+
+.person-link {
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
+}
+
+// Responsive tweaks
+@media (max-width: 600px) {
+  .person-card-header {
+    align-items: center;
+  }
+  .person-photo {
+    width: 120px;
+    height: 120px;
+  }
+  .person-photo-large {
+    width: 140px;
+    height: 140px;
+  }
 }

@@ -1,6 +1,5 @@
 ---
 title: "Gallery"
-author: Marine Ecology and Ecosystem Modelling (MEEM) Lab
 description: "MEEM Lab gallery: fieldwork, conferences, and lab activities at Victoria University of Wellington."
 keywords: [gallery, fieldwork, conferences, marine ecology, Wellington, New Zealand, lab activities]
 ---

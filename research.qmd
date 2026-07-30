@@ -1,9 +1,9 @@
 ---
+title: "Research"
 bibliography: publications.bib
 csl: ecology.csl
 nocite: |
   @*
-author: Marine Ecology and Ecosystem Modelling (MEEM) Lab
 description: "MEEM Lab research projects: ecosystem modelling, climate change, fisheries, and conservation."
 keywords: [research, marine ecology, ecosystem modelling, climate change, fisheries, Wellington, New Zealand, conservation]
 ---

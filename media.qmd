@@ -1,6 +1,5 @@
 ---
 title: "Media & News"
-author: Marine Ecology and Ecosystem Modelling (MEEM) Lab
 description: "MEEM Lab media and news coverage: articles, podcasts, and appearances."
 keywords: [media, news, marine ecology, Wellington, New Zealand, research, podcasts]
 ---

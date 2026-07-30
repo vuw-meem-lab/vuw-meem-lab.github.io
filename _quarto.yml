@@ -38,6 +38,10 @@ website:
 format:
   html:
     theme: styles/meemlab.scss
+    title-block-style: none
+    include-in-header:
+      text: |
+        <meta name="author" content="Marine Ecology and Ecosystem Modelling (MEEM) Lab">
     toc: true
     toc-location: left
     code-copy: true

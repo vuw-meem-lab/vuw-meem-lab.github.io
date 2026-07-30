@@ -1,16 +1,15 @@
 ---
 image: images/logo.png
-author: Marine Ecology and Ecosystem Modelling (MEEM) Lab
 description: "MEEM Lab at Victoria University of Wellington: marine ecology, ecosystem modelling, climate change, fisheries, research, and conservation."
 keywords: [marine ecology, ecosystem modelling, climate change, fisheries, Wellington, New Zealand, research, conservation]
 ---
 
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; margin: 4rem auto 4rem auto;">
-	<img src="images/logo.png" width="220" alt="MEEM Lab logo" aria-label="Lab logo">
-	<a href="https://www.wgtn.ac.nz/" target="_blank" rel="noopener">
-		<img src="images/vuw-logo.png" width="120" alt="Victoria University of Wellington logo" aria-label="University logo">
-	</a>
+<img src="images/logo.png" width="220" alt="MEEM Lab logo" aria-label="Lab logo">
+<a href="https://www.wgtn.ac.nz/" target="_blank" rel="noopener">
+<img src="images/vuw-logo.png" width="120" alt="Victoria University of Wellington logo" aria-label="University logo">
+</a>
 </div>
 
 

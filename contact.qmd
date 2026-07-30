@@ -1,9 +1,8 @@
 ---
-author: Marine Ecology and Ecosystem Modelling (MEEM) Lab
+title: "Get Involved"
 description: "Contact the MEEM Lab at Victoria University of Wellington for research, collaboration, and student opportunities."
 keywords: [contact, marine ecology, ecosystem modelling, Wellington, New Zealand, research, collaboration, scholarships]
 ---
-# Contact Us
 
 
 For general inquiries, collaboration opportunities, or to learn more about the MEEM Lab, please contact Alice Rogers.
