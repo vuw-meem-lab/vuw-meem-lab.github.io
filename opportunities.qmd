@@ -1,0 +1,44 @@
+---
+title: "Opportunities"
+description: "Current PhD, postdoc, and job opportunities with the MEEM Lab at Victoria University of Wellington."
+keywords: [opportunities, jobs, PhD, postdoc, marine ecology, Wellington, New Zealand]
+show: true
+---
+
+<!--
+To hide the listings below (e.g. when there's nothing currently open):
+  1. Change `show: true` to `show: false` in the header at the top of this file.
+  2. Save/commit.
+A friendly "check back soon" message will show instead -- the page and its
+nav link stay up, so nobody hits a broken link. Set `show: true` again
+whenever you have something to advertise.
+-->
+
+```{r echo=FALSE, results='asis'}
+show <- isTRUE(rmarkdown::metadata$show)
+if (!show) {
+  cat(
+    "There are no open positions or advertised opportunities at the moment.",
+    "Please check back soon, or see our [People](people.html) page to meet the team,",
+    "or [Get Involved](contact.html) for how to express interest anyway."
+  )
+  knitr::knit_exit()
+}
+```
+
+## Current Opportunities
+
+<!--
+Copy the block below for each new listing. Delete a listing once it's
+filled or its closing date has passed, or set show: false above if
+there's nothing left to advertise.
+-->
+
+### PhD Position: Example Project Title
+
+**Closing date:** 31 December 2026
+
+A short description of the project, funding, and what we're looking for in
+a candidate goes here.
+
+**How to apply:** [Contact Alice Rogers](contact.html) with your CV and a brief statement of interest.

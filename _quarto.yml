@@ -7,6 +7,7 @@ project:
     - research.qmd
     - media.qmd
     - gallery.qmd
+    - opportunities.qmd
     - contact.qmd
   resources:
     - images/
@@ -26,6 +27,8 @@ website:
         file: media.qmd
       - text: Gallery
         file: gallery.qmd
+      - text: Opportunities
+        file: opportunities.qmd
       - text: Get Involved
         file: contact.qmd
   favicon: images/favicon/favicon.ico

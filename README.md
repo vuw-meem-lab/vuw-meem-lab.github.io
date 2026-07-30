@@ -11,6 +11,7 @@ You do **not** need to install anything or know how to code to add yourself to t
 - [Adding photos to the Gallery](#adding-photos-to-the-gallery)
 - [Updating your bio, photo, or links later](#updating-your-bio-photo-or-links-later)
 - [When someone leaves the lab](#when-someone-leaves-the-lab)
+- [Posting or hiding job/PhD opportunities](#posting-or-hiding-jobphd-opportunities)
 - [Common mistakes (read this if something looks wrong)](#common-mistakes-read-this-if-something-looks-wrong)
 - [How changes go live](#how-changes-go-live)
 - [For maintainers: project structure & local rendering](#for-maintainers-project-structure--local-rendering)
@@ -98,6 +99,14 @@ The Gallery page shows every image in that folder automatically — no other fil
 
 They'll move automatically from "Current Lab Members" to "Past Members" on the People page.
 
+## Posting or hiding job/PhD opportunities
+
+The [Opportunities page](opportunities.qmd) works a little differently, since it's mostly empty most of the time.
+
+**To post a listing:** edit `opportunities.qmd`, copy the example listing block under "Current Opportunities", and fill in your own title, closing date, description, and how to apply.
+
+**To hide the page's listings** (e.g. there's nothing open right now): change `show: true` to `show: false` in the YAML header at the very top of `opportunities.qmd`, and save. The page stays up with a friendly "check back soon" message instead of a broken or empty-looking page — nobody hits a dead nav link. Set it back to `show: true` whenever you have something to advertise again.
+
 ## Common mistakes (read this if something looks wrong)
 
 - **Photo shows as a broken image / placeholder:** the `photo:` path in your YAML almost always doesn't exactly match where the file actually is. Check the folder (`images/people/`), the filename spelling, and the extension (`.jpg` ≠ `.jpeg` ≠ `.png`) all match exactly — paths are case-sensitive.
@@ -119,6 +128,7 @@ Once your change is committed to the `main` branch (either directly, or via a pu
 - **research.qmd**: Projects and publications (publications are pulled from `publications.bib`)
 - **media.qmd**: News and media appearances
 - **gallery.qmd**: Renders the Gallery page from everything in `images/gallery/`
+- **opportunities.qmd**: Job/PhD listings; content is skipped in favor of a placeholder when its `show:` field is `false`
 - **contact.qmd**: Contact and involvement information
 - **people/**: One markdown file per current lab member (see `template.md`); `people/past/` holds alumni
 - **images/**: Photos and other images used on the site
