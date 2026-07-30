@@ -87,7 +87,7 @@
       <if variable="issued">
         <group prefix=" " suffix=".">
           <date variable="issued">
-            <date-part name="year"/>
+            <date-part name="year" font-weight="bold"/>
           </date>
           <choose>
             <if type="article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song" match="none">
@@ -168,7 +168,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" entry-spacing="0" line-spacing="2">
+  <bibliography hanging-indent="true" entry-spacing="1" line-spacing="2">
     <sort>
       <key variable="issued" sort="descending"/>
       <key macro="author"/>

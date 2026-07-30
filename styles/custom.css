@@ -3,3 +3,23 @@
 .people-list {
   margin-top: 2rem;
 }
+
+/* A little more breathing room between publications than Quarto's default 1em */
+div.csl-entry {
+  margin-bottom: 1.75em;
+}
+
+/* Muted footer-style note block, used at the bottom of a page for
+   secondary info (last-updated date, copyright notices, addresses) */
+.page-footer-note {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(52, 63, 102, 0.15);
+  color: #888;
+  font-size: 0.95em;
+}
+
+.page-footer-note p {
+  margin: 0.3rem 0;
+}

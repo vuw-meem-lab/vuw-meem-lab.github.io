@@ -8,7 +8,6 @@ keywords: [contact, marine ecology, ecosystem modelling, Wellington, New Zealand
 For general inquiries, collaboration opportunities, or to learn more about the MEEM Lab, please contact Alice Rogers.
 
 **Email:** [alice.rogers@vuw.ac.nz](mailto:alice.rogers@vuw.ac.nz)
----
 
 ## Student Opportunities & Scholarships
 
@@ -20,23 +19,18 @@ The MEEM Lab welcomes enthusiastic students at all levels (undergraduate, master
 
 To express your interest in joining the MEEM Lab, email Alice with a brief introduction, your research interests, and any relevant experience.
 
-**Address:**  
-School of Biological Sciences  
-Victoria University of Wellington  
-PO Box 600, Wellington 6140  
-New Zealand
-
-**Location:**  
-Coastal Ecology Lab, Island Bay
-
----
-
 ## Connect with Us
 
 - [MEEM Lab Website](https://vuw-meem-lab.github.io/)
-- [Victoria University of Wellington](https://www.wgtn.ac.nz/engineering)
-
----
+- [Victoria University of Wellington](https://www.wgtn.ac.nz/)
 
 If you have specific questions for our team members, please visit the [People](people.html) page for individual contact details.
+
+::: {.page-footer-note}
+**School of Biological Sciences**\
+Victoria University of Wellington\
+PO Box 600, Wellington 6140, New Zealand
+
+**Location:** Coastal Ecology Lab, Island Bay
+:::
 

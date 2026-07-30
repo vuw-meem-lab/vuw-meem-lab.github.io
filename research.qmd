@@ -16,7 +16,7 @@ keywords: [research, marine ecology, ecosystem modelling, climate change, fisher
 Funded by the [Royal Society Te Apārangi Marsden Fund](https://www.royalsociety.org.nz/what-we-do/funds-and-opportunities/marsden/). <br>
 **Associate Investigators:** [Dr. James Bell](https://people.wgtn.ac.nz/james.bell), [Dr. Pim Bongaerts](https://www.calacademy.org/staff/ibss/invertebrate-zoology-and-geology/pim-bongaerts), [Dr. Sarah Bury](https://niwa.co.nz/people/sarah-bury) <br>
 **Postdoctoral Researchers:** [Dr. Francesca Strano](https://niwa.co.nz/people/francesca-strano) <br>
-**Research Assistants:** Dr. Chelsey Beese, Matteo Collina <br>
+**Research Assistants:** Dr. Chelsey Beese, Dr. Matteo Collina <br>
 **PhD Students:** Emma Novak, Mollie Rickwood
 :::
 
@@ -48,3 +48,11 @@ To cite a specific publication in the text elsewhere, use [@CitationKey]
 
 ::: {#refs}
 :::
+
+<script>
+// Bold Alice Rogers's name wherever it appears in the publications list,
+// since she's the lab PI and every entry is co-authored by her.
+document.querySelectorAll('#refs .csl-entry').forEach(function (entry) {
+  entry.innerHTML = entry.innerHTML.replace(/A\. Rogers/g, '<strong>A. Rogers</strong>');
+});
+</script>
