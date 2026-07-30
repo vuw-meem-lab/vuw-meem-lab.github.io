@@ -170,8 +170,8 @@
   </citation>
   <bibliography hanging-indent="true" entry-spacing="0" line-spacing="2">
     <sort>
+      <key variable="issued" sort="descending"/>
       <key macro="author"/>
-      <key variable="issued"/>
     </sort>
     <layout suffix=".">
       <text macro="author" suffix="."/>

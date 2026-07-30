@@ -1,6 +1,8 @@
 ---
 bibliography: publications.bib
 csl: ecology.csl
+nocite: |
+  @*
 author: Marine Ecology and Ecosystem Modelling (MEEM) Lab
 description: "MEEM Lab research projects: ecosystem modelling, climate change, fisheries, and conservation."
 keywords: [research, marine ecology, ecosystem modelling, climate change, fisheries, Wellington, New Zealand, conservation]
@@ -37,24 +39,12 @@ This project aims to understand how climate change and extreme weather events wi
 ## Publications
 
 <!--
-This section is now automated using the publications.bib file.
-To add or update publications, simply edit publications.bib in the project folder.
-Quarto will render the bibliography automatically.
-Publications are sorted by year (descending) using the 'sort' option below.
+This section is automated using the publications.bib file.
+To add or update a publication, add an entry to publications.bib in the
+project folder and Quarto will render it here automatically, newest first.
+To cite a specific publication in the text elsewhere, use [@CitationKey]
+(e.g. [@Broadribb2026]).
 -->
 
-<!-- Dummy citation to force bibliography rendering: [@Broadribb2026] -->
-
-::: {.bibliography sort="descending"}
-<!-- The list below is generated from publications.bib. -->
+::: {#refs}
 :::
-
-<!--
-To cite a specific publication in the text, use [@CitationKey] (e.g., [@Broadribb2026]).
--->
-
-<!--
-To change the sort order or style, add options like:
-::: {.bibliography sort="descending"}
-:::
--->
