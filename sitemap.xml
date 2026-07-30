@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vuw-meem-lab.github.io/website/contact.html</loc>
-    <lastmod>2026-02-10T03:43:12.388Z</lastmod>
+    <loc>https://vuw-meem-lab.github.io/contact.html</loc>
+    <lastmod>2026-07-30T23:27:37.689Z</lastmod>
   </url>
   <url>
-    <loc>https://vuw-meem-lab.github.io/website/research.html</loc>
-    <lastmod>2026-02-10T03:43:12.399Z</lastmod>
+    <loc>https://vuw-meem-lab.github.io/media.html</loc>
+    <lastmod>2026-07-30T23:27:37.698Z</lastmod>
   </url>
   <url>
-    <loc>https://vuw-meem-lab.github.io/website/index.html</loc>
-    <lastmod>2026-02-10T03:43:12.398Z</lastmod>
+    <loc>https://vuw-meem-lab.github.io/people.html</loc>
+    <lastmod>2026-07-30T23:27:37.699Z</lastmod>
   </url>
   <url>
-    <loc>https://vuw-meem-lab.github.io/website/people.html</loc>
-    <lastmod>2026-02-10T03:43:12.398Z</lastmod>
+    <loc>https://vuw-meem-lab.github.io/index.html</loc>
+    <lastmod>2026-07-30T23:27:37.698Z</lastmod>
   </url>
   <url>
-    <loc>https://vuw-meem-lab.github.io/website/media.html</loc>
-    <lastmod>2026-02-10T03:43:12.398Z</lastmod>
+    <loc>https://vuw-meem-lab.github.io/research.html</loc>
+    <lastmod>2026-07-30T23:27:37.699Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vuw-meem-lab.github.io/gallery.html</loc>
+    <lastmod>2026-07-30T23:27:37.689Z</lastmod>
   </url>
 </urlset>
