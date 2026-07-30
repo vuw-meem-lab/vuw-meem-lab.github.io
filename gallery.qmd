@@ -3,8 +3,8 @@ title: "Gallery"
 author: Marine Ecology and Ecosystem Modelling (MEEM) Lab
 description: "MEEM Lab gallery: fieldwork, conferences, and lab activities at Victoria University of Wellington."
 keywords: [gallery, fieldwork, conferences, marine ecology, Wellington, New Zealand, lab activities]
-Welcome to the MEEM Lab gallery! Here are some highlights of our team presenting at conferences, working in the field, and collaborating together.
 ---
+
 Welcome to the MEEM Lab photo gallery! Here are some highlights of our team presenting at conferences, working in the field, and collaborating together.
 
 ::: {.callout-note}
@@ -12,9 +12,9 @@ Welcome to the MEEM Lab photo gallery! Here are some highlights of our team pres
 All photos in this gallery are © 2026 MEEM Lab, Victoria University of Wellington. All rights reserved. Unauthorized use, reproduction, or distribution is strictly prohibited.
 :::
 
-```{r}
+```{r print-gallery, echo=FALSE, results='asis'}
 gallery_dir <- "images/gallery"
-images <- list.files(gallery_dir, pattern = "\.(jpg|jpeg|png|webp|gif)$", ignore.case = TRUE)
+images <- list.files(gallery_dir, pattern = "\\.(jpg|jpeg|png|webp|gif)$", ignore.case = TRUE)
 cat('<div class="gallery-grid">')
 for (img in images) {
   img_path <- file.path(gallery_dir, img)
