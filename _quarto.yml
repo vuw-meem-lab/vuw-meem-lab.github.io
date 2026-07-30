@@ -6,15 +6,15 @@ project:
     - people.qmd
     - research.qmd
     - media.qmd
+    - gallery.qmd
     - contact.qmd
   resources:
     - images/
     - styles/
-    - _extensions/
 
 website:
   title: "MEEM Lab"
-  site-url: "https://vuw-meem-lab.github.io/website/"
+  site-url: "https://vuw-meem-lab.github.io/"
   navbar:
     logo: images/logo.png
     left:
@@ -26,14 +26,6 @@ website:
         file: media.qmd
       - text: Gallery
         file: gallery.qmd
-      - text: Get Involved
-        file: contact.qmd
-      - text: People
-        file: people.qmd
-      - text: Research
-        file: research.qmd
-      - text: Media
-        file: media.qmd
       - text: Get Involved
         file: contact.qmd
   favicon: images/favicon/favicon.ico
