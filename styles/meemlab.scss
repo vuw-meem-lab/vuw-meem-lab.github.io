@@ -152,6 +152,14 @@ a {
   font-size: 1.1rem;
 }
 
+// Inline brand SVGs (orcid, google-scholar, researchgate) sized to match
+// the Bootstrap Icons font glyphs they sit alongside
+.person-link svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+}
+
 // Responsive tweaks
 @media (max-width: 600px) {
   .person-card-header {
