@@ -7,14 +7,23 @@ keywords: [gallery, fieldwork, conferences, marine ecology, Wellington, New Zeal
 Welcome to the MEEM Lab photo gallery! Here are some highlights of our team presenting at conferences, working in the field, and collaborating together.
 
 ```{r print-gallery, echo=FALSE, results='asis'}
+library(yaml)
 gallery_dir <- "images/gallery"
 images <- list.files(gallery_dir, pattern = "\\.(jpg|jpeg|png|webp|gif)$", ignore.case = TRUE)
+
+captions_file <- file.path(gallery_dir, "captions.yml")
+custom_captions <- if (file.exists(captions_file)) yaml.load_file(captions_file) else list()
+
 cat('<div class="gallery-grid">')
 for (img in images) {
   img_path <- file.path(gallery_dir, img)
-  caption <- tools::file_path_sans_ext(img)
-  caption <- gsub("[-_]+", " ", caption)
-  caption <- paste0(toupper(substring(caption, 1, 1)), substring(caption, 2))
+  if (!is.null(custom_captions[[img]]) && nzchar(custom_captions[[img]])) {
+    caption <- custom_captions[[img]]
+  } else {
+    caption <- tools::file_path_sans_ext(img)
+    caption <- gsub("[-_]+", " ", caption)
+    caption <- paste0(toupper(substring(caption, 1, 1)), substring(caption, 2))
+  }
   cat(paste0(
     '<div class="gallery-item" tabindex="0">',
       '<img src="', img_path, '" alt="', caption, '" class="gallery-img">',
