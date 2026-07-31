@@ -5,6 +5,8 @@ This repository contains the Quarto-based website for the MEEM Lab at Victoria U
 
 You do **not** need to install anything or know how to code to add yourself to the People page or add a photo to the Gallery. Everything below can be done from a web browser.
 
+Regularly maintaining the site (new publications, people leaving, job postings, etc.)? See [MAINTAINING.md](MAINTAINING.md) for a quick "what do I do when" checklist instead.
+
 ## Contents
 
 - [Adding yourself to the People page](#adding-yourself-to-the-people-page)
