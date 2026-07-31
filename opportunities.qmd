@@ -2,7 +2,7 @@
 title: "Opportunities"
 description: "Current PhD, postdoc, and job opportunities with the MEEM Lab at Victoria University of Wellington."
 keywords: [opportunities, jobs, PhD, postdoc, marine ecology, Wellington, New Zealand]
-show: true
+show: false
 ---
 
 <!--
@@ -18,9 +18,10 @@ whenever you have something to advertise.
 show <- isTRUE(rmarkdown::metadata$show)
 if (!show) {
   cat(
-    "There are no open positions or advertised opportunities at the moment.",
-    "Please check back soon, or see our [People](people.html) page to meet the team,",
-    "or [Get Involved](contact.html) for how to express interest anyway."
+    "All of our funded positions are currently filled, but we are always",
+    "happy to hear from enthusiastic and dedicated candidates! Please check",
+    "back soon for new listings, see our [People](people.html) page to meet",
+    "the team, or [Get Involved](contact.html) to express your interest."
   )
   knitr::knit_exit()
 }

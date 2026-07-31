@@ -7,7 +7,7 @@ role: postdoc
 year_started: 2024
 year_end: 2024
 links:
-  link1: https://niwa.co.nz/people/francesca-strano
+  link1: https://scholar.google.com/citations?user=Y0weZqIAAAAJ&hl=it
 ---
 
 Francesca was a postdoctoral researcher in the MEEM lab in 2024, focusing on marine ecosystem health.

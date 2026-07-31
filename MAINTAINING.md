@@ -75,6 +75,25 @@ Open [`research.qmd`](research.qmd) directly and edit the relevant section —
 project descriptions, funders, and the team list under each project are all
 plain text/markdown you can edit like a Word document.
 
+## To do: missing past-member links
+
+A few alumni on the People page don't have a link on their name yet. If you
+come across a LinkedIn, Google Scholar, or similar profile link for any of
+them, add it as `link1` in their file's `links:` section (same pattern as
+the other past members) and commit:
+
+- [ ] Andy Chang — `people/past/andy-chang.md`
+- [ ] Baylee Wade — `people/past/baylee-wade.md`
+- [ ] Victoria Carrington — `people/past/victoria-carrington.md`
+
+Example — if `links:` currently just says `links:` with nothing under it,
+change it to:
+
+```yaml
+links:
+  link1: https://www.linkedin.com/in/their-profile/
+```
+
 ## If something looks broken after a change
 
 1. Check the **Actions** tab of the repository — a yellow dot means it's
