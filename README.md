@@ -127,6 +127,21 @@ The credit shows as a small permanent label in the corner of the photo (not just
 
 They'll move automatically from "Current Lab Members" to "Past Members" on the People page.
 
+### Adding a past member who was never on the current People page
+
+For lab history from before this site existed, or anyone else who should be
+listed as a past member without ever having had a current profile:
+
+1. Go to the [`people/past` folder](people/past/), open **`template.md`**, and duplicate it the same way as the main [`people/template.md`](#adding-yourself-to-the-people-page) (pencil icon → "..." → "Duplicate this file").
+2. Name the new file `their-name.md` and fill in the fields.
+3. Commit your change.
+
+Note the Past Members list is much simpler than the current one — it only
+ever shows **name**, **year_started**, **year_end**, and a link if you set
+`links.link1`. Photo, pronouns, other link types, and the bio text aren't
+displayed for past members (the template says this too), so don't spend
+time on those beyond your own record-keeping.
+
 ## Posting or hiding job/PhD opportunities
 
 The [Opportunities page](opportunities.qmd) works a little differently, since it's mostly empty most of the time.

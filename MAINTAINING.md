@@ -75,24 +75,33 @@ Open [`research.qmd`](research.qmd) directly and edit the relevant section —
 project descriptions, funders, and the team list under each project are all
 plain text/markdown you can edit like a Word document.
 
-## To do: missing past-member links
+## To do: past members
 
-A few alumni on the People page don't have a link on their name yet. If you
-come across a LinkedIn, Google Scholar, or similar profile link for any of
-them, add it as `link1` in their file's `links:` section (same pattern as
-the other past members) and commit:
+A few things worth a pass when you get a chance:
 
-- [ ] Andy Chang — `people/past/andy-chang.md`
-- [ ] Baylee Wade — `people/past/baylee-wade.md`
-- [ ] Victoria Carrington — `people/past/victoria-carrington.md`
+- [ ] **Add anyone missing.** The Past Members list only has who's been
+  added since this site existed plus whoever Chelsey and I have entered
+  from memory — if you know of earlier lab alumni who aren't listed, add
+  them following [the README's "Adding a past member" section](README.md#adding-a-past-member-who-was-never-on-the-current-people-page).
+- [ ] **Double-check the dates.** Skim through
+  [`people/past/`](people/past/) and check each person's `year_started`/
+  `year_end` are actually correct — several were filled in from memory
+  rather than confirmed with the person.
+- [ ] **Missing links.** A few alumni don't have a link on their name yet.
+  If you come across a LinkedIn, Google Scholar, or similar profile link
+  for any of them, add it as `link1` in their file's `links:` section
+  (same pattern as the other past members) and commit:
+  - [ ] Andy Chang — `people/past/andy-chang.md`
+  - [ ] Baylee Wade — `people/past/baylee-wade.md`
+  - [ ] Victoria Carrington — `people/past/victoria-carrington.md`
 
-Example — if `links:` currently just says `links:` with nothing under it,
-change it to:
+  Example — if `links:` currently just says `links:` with nothing under it,
+  change it to:
 
-```yaml
-links:
-  link1: https://www.linkedin.com/in/their-profile/
-```
+  ```yaml
+  links:
+    link1: https://www.linkedin.com/in/their-profile/
+  ```
 
 ## If something looks broken after a change
 
