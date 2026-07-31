@@ -101,6 +101,16 @@ rov-deployment-fiordland.jpg: "Deploying the ROV from the deck of RV Coastal dur
 
 Any photo not listed in `captions.yml` just falls back to a caption generated from its filename (dashes/underscores become spaces), which is a fine placeholder but not a substitute for a real description.
 
+**If a photo needs a credit** (e.g. it was taken by a lab member who wants attribution), use the longer form instead of a plain string, with both a `caption` and a `credit`:
+
+```yaml
+rov-deployment-fiordland.jpg:
+  caption: "Deploying the ROV from the deck of RV Coastal during a Fiordland survey"
+  credit: "Photo: Jane Smith"
+```
+
+The credit shows as a small permanent label in the corner of the photo (not just on hover, since the point is that it's actually visible), separate from the caption.
+
 ## Updating your bio, photo, or links later
 
 1. Go to your file in the [`people` folder](people/) and click the pencil/edit icon.

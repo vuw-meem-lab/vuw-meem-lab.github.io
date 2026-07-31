@@ -1,10 +1,16 @@
-# Custom captions/alt text for gallery photos.
+# Custom captions/alt text for gallery photos, and photo credits.
 #
-# Add one line per photo you want a custom caption for, in the form:
+# Simplest form -- just a caption, no credit needed:
 #   exact-filename.ext: "Your description here"
+#
+# With a photo credit (shows as a small always-visible label in the
+# corner of the photo, separate from the caption):
+#   exact-filename.ext:
+#     caption: "Your description here"
+#     credit: "Photo: Their Name"
 #
 # The filename on the left must exactly match the file in this folder
 # (including the extension). Any photo not listed here just gets a
-# caption generated from its filename automatically.
+# caption generated from its filename automatically, and no credit.
 
 tory-fieldwork.webp: "Master's student Victoria Carrington collecting samples for her shark stock assessment aboard NIWA's MV Tangaroa"

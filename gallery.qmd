@@ -17,17 +17,27 @@ custom_captions <- if (file.exists(captions_file)) yaml.load_file(captions_file)
 cat('<div class="gallery-grid">')
 for (img in images) {
   img_path <- file.path(gallery_dir, img)
-  if (!is.null(custom_captions[[img]]) && nzchar(custom_captions[[img]])) {
-    caption <- custom_captions[[img]]
+  entry <- custom_captions[[img]]
+  credit <- NULL
+  if (is.list(entry)) {
+    caption <- if (!is.null(entry$caption) && nzchar(entry$caption)) entry$caption else NULL
+    if (!is.null(entry$credit) && nzchar(entry$credit)) credit <- entry$credit
+  } else if (!is.null(entry) && nzchar(entry)) {
+    caption <- entry
   } else {
+    caption <- NULL
+  }
+  if (is.null(caption)) {
     caption <- tools::file_path_sans_ext(img)
     caption <- gsub("[-_]+", " ", caption)
     caption <- paste0(toupper(substring(caption, 1, 1)), substring(caption, 2))
   }
+  credit_badge <- if (!is.null(credit)) paste0('<div class="photo-credit">', credit, '</div>') else ''
   cat(paste0(
     '<div class="hover-photo gallery-item" tabindex="0">',
       '<img src="', img_path, '" alt="', caption, '">',
       '<div class="hover-photo-overlay"><span>', caption, '</span></div>',
+      credit_badge,
     '</div>'
   ))
 }
