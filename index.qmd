@@ -11,6 +11,9 @@ keywords: [marine ecology, ecosystem modelling, climate change, fisheries, Welli
 <a href="https://www.wgtn.ac.nz/" target="_blank" rel="noopener">
 <img src="images/vuw-logo.png" style="height: 220px; width: auto;" alt="Victoria University of Wellington logo" aria-label="University logo">
 </a>
+<a href="https://www.wgtn.ac.nz/sbs/research-centres-institutes/vucel" target="_blank" rel="noopener">
+<img src="images/vucel-logo.png" style="height: 220px; width: auto;" alt="Victoria University Coastal Ecology Lab (VUCEL) logo" aria-label="VUCEL logo">
+</a>
 </div>
 
 
