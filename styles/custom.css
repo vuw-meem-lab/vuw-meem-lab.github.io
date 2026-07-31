@@ -61,3 +61,17 @@ div.csl-entry {
 .hover-photo:focus-within .hover-photo-overlay {
   opacity: 1;
 }
+
+/* Photographer credit -- always visible (not just on hover), since the
+   point is public attribution, in the bottom-right corner of the photo. */
+.photo-credit {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  padding: 0.15rem 0.5rem;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  pointer-events: none;
+}
