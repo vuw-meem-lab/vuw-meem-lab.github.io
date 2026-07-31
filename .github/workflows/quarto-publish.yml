@@ -28,6 +28,7 @@ jobs:
             any::stringr
             any::knitr
             any::rmarkdown
+            any::magick
       - name: Render site
         run: quarto render
       - name: Publish to GitHub Pages

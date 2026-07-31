@@ -8,14 +8,29 @@ Welcome to the MEEM Lab photo gallery! Here are some highlights of our team pres
 
 ```{r print-gallery, echo=FALSE, results='asis'}
 library(yaml)
+library(magick)
 gallery_dir <- "images/gallery"
 images <- list.files(gallery_dir, pattern = "\\.(jpg|jpeg|png|webp|gif)$", ignore.case = TRUE)
 
 captions_file <- file.path(gallery_dir, "captions.yml")
 custom_captions <- if (file.exists(captions_file)) yaml.load_file(captions_file) else list()
 
+# Photos are served downsized rather than at their original upload
+# resolution, so a "ripped" copy is only good enough for casual web
+# reuse, not print. Originals never leave images/gallery/ -- this writes
+# a resized copy straight into the build output (_site/), which is
+# regenerated fresh on every render.
+web_dir <- file.path("_site", gallery_dir)
+dir.create(web_dir, recursive = TRUE, showWarnings = FALSE)
+max_width <- 1000
+
 cat('<div class="gallery-grid">')
 for (img in images) {
+  original <- image_read(file.path(gallery_dir, img))
+  if (image_info(original)$width > max_width) {
+    original <- image_resize(original, paste0(max_width, "x"))
+  }
+  image_write(original, path = file.path(web_dir, img))
   img_path <- file.path(gallery_dir, img)
   entry <- custom_captions[[img]]
   credit <- NULL

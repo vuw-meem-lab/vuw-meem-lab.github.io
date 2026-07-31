@@ -111,6 +111,8 @@ rov-deployment-fiordland.jpg:
 
 The credit shows as a small permanent label in the corner of the photo (not just on hover, since the point is that it's actually visible), separate from the caption.
 
+**About photo reuse:** every photo is automatically served at a reduced size (max 1000px wide) regardless of what resolution you upload, so a copy someone saves from the site is only good enough for casual reuse, not print. There's no way to fully stop someone from downloading a web image, though — if a photo is important to you and you're worried about how it might be reused, add a visible watermark to it yourself before uploading. Note that because this repository is public, the file you upload is technically viewable in the repository's history even after this resizing, not just as shown on the site itself.
+
 ## Updating your bio, photo, or links later
 
 1. Go to your file in the [`people` folder](people/) and click the pencil/edit icon.
@@ -164,7 +166,7 @@ Once your change is committed to the `main` branch (either directly, or via a pu
 
 If a build fails (red cross in the **Actions** tab), click into the failed run and open the "Render site" step to see the error — R package installation issues are the most common cause, since the workflow installs R packages fresh on every run.
 
-To preview changes locally before pushing, install [Quarto](https://quarto.org/docs/get-started/) and R with the `yaml`, `stringr`, `knitr`, and `rmarkdown` packages, then run:
+To preview changes locally before pushing, install [Quarto](https://quarto.org/docs/get-started/) and R with the `yaml`, `stringr`, `knitr`, `rmarkdown`, and `magick` packages, then run:
 
 ```shell
 quarto render
