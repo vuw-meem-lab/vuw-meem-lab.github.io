@@ -1,0 +1,10 @@
+# Custom captions/alt text for gallery photos.
+#
+# Add one line per photo you want a custom caption for, in the form:
+#   exact-filename.ext: "Your description here"
+#
+# The filename on the left must exactly match the file in this folder
+# (including the extension). Any photo not listed here just gets a
+# caption generated from its filename automatically.
+
+tory-fieldwork.webp: "Master's student Victoria Carrington collecting samples for her shark stock assessment aboard NIWA's MV Tangaroa"
