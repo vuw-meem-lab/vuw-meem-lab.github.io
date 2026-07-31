@@ -156,9 +156,9 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Welcome to the MEEM Lab photo gallery! Here are some highlights of our team presenting at conferences, working in the field, and collaborating together.</p>
 <div class="gallery-grid">
-<div class="gallery-item" tabindex="0">
-<img src="images/gallery/tory-fieldwork.webp" alt="Master's student Victoria Carrington collecting samples for her shark stock assessment aboard NIWA's MV Tangaroa" class="gallery-img">
-<div class="gallery-overlay">
+<div class="hover-photo gallery-item" tabindex="0">
+<img src="images/gallery/tory-fieldwork.webp" alt="Master's student Victoria Carrington collecting samples for her shark stock assessment aboard NIWA's MV Tangaroa">
+<div class="hover-photo-overlay">
 <span>Master’s student Victoria Carrington collecting samples for her shark stock assessment aboard NIWA’s MV Tangaroa</span>
 </div>
 </div>
@@ -174,36 +174,8 @@ ul.task-list li input[type="checkbox"] {
   justify-content: center;
 }
 .gallery-item {
-  position: relative;
   max-width: 300px;
-  border-radius: 8px;
-  overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-}
-.gallery-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.gallery-overlay {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 1rem;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  font-size: 1rem;
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-.gallery-item:hover .gallery-overlay,
-.gallery-item:focus .gallery-overlay,
-.gallery-item:focus-within .gallery-overlay {
-  opacity: 1;
 }
 </style>
 
