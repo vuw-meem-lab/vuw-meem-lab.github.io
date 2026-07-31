@@ -156,10 +156,12 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Welcome to the MEEM Lab photo gallery! Here are some highlights of our team presenting at conferences, working in the field, and collaborating together.</p>
 <div class="gallery-grid">
-<img src="images/gallery/tory-fieldwork.webp" alt="tory-fieldwork" class="gallery-img" aria-label="Gallery image: tory-fieldwork">
-<p class="gallery-caption">
-tory-fieldwork
-</p>
+<div class="gallery-item" tabindex="0">
+<img src="images/gallery/tory-fieldwork.webp" alt="Tory fieldwork" class="gallery-img">
+<div class="gallery-overlay">
+<span>Tory fieldwork</span>
+</div>
+</div>
 </div>
 <div class="page-footer-note">
 <p><strong>Copyright Notice:</strong> All photos in this gallery are © 2026 MEEM Lab, Victoria University of Wellington. All rights reserved. Unauthorized use, reproduction, or distribution is strictly prohibited.</p>
@@ -171,15 +173,37 @@ tory-fieldwork
   gap: 2rem;
   justify-content: center;
 }
-.gallery-img {
+.gallery-item {
+  position: relative;
   max-width: 300px;
   border-radius: 8px;
+  overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
-.gallery-caption {
+.gallery-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
   font-size: 1rem;
-  margin-top: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.gallery-item:hover .gallery-overlay,
+.gallery-item:focus .gallery-overlay,
+.gallery-item:focus-within .gallery-overlay {
+  opacity: 1;
 }
 </style>
 
