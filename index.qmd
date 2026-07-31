@@ -28,7 +28,10 @@ We collaborate with many organisations, including [Wellington City Council](http
 Explore our research, meet our people, and get involved!
 
 
-![Lab shark photo](images/shark.jpg){alt="reef shark" aria-label="reef shark"}
+<div class="hover-photo" style="max-width: 100%;" tabindex="0">
+<img src="images/shark.jpg" style="max-width: 100%;" alt="reef shark">
+<div class="hover-photo-overlay"><span>Lab shark photo</span></div>
+</div>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 3rem; margin: 3rem auto 2rem auto; flex-wrap: wrap;">
 <a href="https://www.wgtn.ac.nz/" target="_blank" rel="noopener">

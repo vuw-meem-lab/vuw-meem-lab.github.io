@@ -23,3 +23,41 @@ div.csl-entry {
 .page-footer-note p {
   margin: 0.3rem 0;
 }
+
+/* Reusable hover/focus caption overlay for photos (Gallery page, homepage
+   photo, etc.) -- image darkens and its caption appears centered over it,
+   instead of printing as plain text under the photo. */
+.hover-photo {
+  position: relative;
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.hover-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hover-photo-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.hover-photo:hover .hover-photo-overlay,
+.hover-photo:focus .hover-photo-overlay,
+.hover-photo:focus-within .hover-photo-overlay {
+  opacity: 1;
+}

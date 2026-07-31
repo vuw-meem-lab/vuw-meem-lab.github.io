@@ -25,9 +25,9 @@ for (img in images) {
     caption <- paste0(toupper(substring(caption, 1, 1)), substring(caption, 2))
   }
   cat(paste0(
-    '<div class="gallery-item" tabindex="0">',
-      '<img src="', img_path, '" alt="', caption, '" class="gallery-img">',
-      '<div class="gallery-overlay"><span>', caption, '</span></div>',
+    '<div class="hover-photo gallery-item" tabindex="0">',
+      '<img src="', img_path, '" alt="', caption, '">',
+      '<div class="hover-photo-overlay"><span>', caption, '</span></div>',
     '</div>'
   ))
 }
@@ -46,35 +46,7 @@ cat('</div>')
   justify-content: center;
 }
 .gallery-item {
-  position: relative;
   max-width: 300px;
-  border-radius: 8px;
-  overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-}
-.gallery-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.gallery-overlay {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 1rem;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  font-size: 1rem;
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-.gallery-item:hover .gallery-overlay,
-.gallery-item:focus .gallery-overlay,
-.gallery-item:focus-within .gallery-overlay {
-  opacity: 1;
 }
 </style>
