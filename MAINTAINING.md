@@ -13,7 +13,7 @@ this repo, but easier still to just ask first.
 
 ## A new publication comes out
 
-Every Monday, a bot checks my ORCID record and — if it finds a paper that
+Every Monday, a bot checks your (Alice's) ORCID record and — if it finds a paper that
 isn't already on the Research page — opens a **pull request** titled "New
 publications found on ORCID." You'll see it under the **Pull requests** tab
 of the repository (there'll be a notification badge).
