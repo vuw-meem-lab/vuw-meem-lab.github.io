@@ -13,9 +13,13 @@ cat('<div class="gallery-grid">')
 for (img in images) {
   img_path <- file.path(gallery_dir, img)
   caption <- tools::file_path_sans_ext(img)
+  caption <- gsub("[-_]+", " ", caption)
+  caption <- paste0(toupper(substring(caption, 1, 1)), substring(caption, 2))
   cat(paste0(
-    '<img src="', img_path, '" alt="', caption, '" class="gallery-img" aria-label="Gallery image: ', caption, '">',
-    '<p class="gallery-caption">', caption, '</p>'
+    '<div class="gallery-item" tabindex="0">',
+      '<img src="', img_path, '" alt="', caption, '" class="gallery-img">',
+      '<div class="gallery-overlay"><span>', caption, '</span></div>',
+    '</div>'
   ))
 }
 cat('</div>')
@@ -32,14 +36,36 @@ cat('</div>')
   gap: 2rem;
   justify-content: center;
 }
-.gallery-img {
+.gallery-item {
+  position: relative;
   max-width: 300px;
   border-radius: 8px;
+  overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
-.gallery-caption {
+.gallery-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
   font-size: 1rem;
-  margin-top: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.gallery-item:hover .gallery-overlay,
+.gallery-item:focus .gallery-overlay,
+.gallery-item:focus-within .gallery-overlay {
+  opacity: 1;
 }
 </style>
