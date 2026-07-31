@@ -83,7 +83,21 @@ A few things that will break your profile if you get them wrong — see the [com
 3. Drag your photo in (jpg, jpeg, png, webp, or gif all work).
 4. Scroll down, add a short commit message (e.g. "Add fieldwork photo"), and click **Commit changes**.
 
-The Gallery page shows every image in that folder automatically — no other file needs editing. The caption under each photo is just the filename with the extension removed and dashes/underscores turned into spaces, so name your file with that in mind (e.g. `rov-deployment-fiordland.jpg` → "rov deployment fiordland").
+The Gallery page shows every image in that folder automatically — no other file needs editing to make it appear.
+
+**Please also add a real caption/alt text for your photo** — this is what shows when someone hovers over (or tab-focuses) the photo, and it's also what screen readers read aloud for anyone who can't see the image, so it should actually describe what's in the photo rather than just restating the filename.
+
+1. Open [`images/gallery/captions.yml`](images/gallery/captions.yml) and click the pencil/edit icon.
+2. Add a new line in the form `your-filename.ext: "A description of the photo"`, using the *exact* filename you uploaded (including its extension).
+3. Commit your change the same way as any other edit (see [How changes go live](#how-changes-go-live)).
+
+For example:
+
+```yaml
+rov-deployment-fiordland.jpg: "Deploying the ROV from the deck of RV Coastal during a Fiordland survey"
+```
+
+Any photo not listed in `captions.yml` just falls back to a caption generated from its filename (dashes/underscores become spaces), which is a fine placeholder but not a substitute for a real description.
 
 ## Updating your bio, photo, or links later
 
