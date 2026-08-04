@@ -14,3 +14,12 @@
 # caption generated from its filename automatically, and no credit.
 
 tory-fieldwork.webp: "Master's student Victoria Carrington collecting samples for her shark stock assessment aboard NIWA's MV Tangaroa"
+AliceAndFishes.jpg:
+  caption: "Group leader Dr Alice Rogers diving amongst a school of reef fishes"
+  credit: "Photo: David Wachenfeld"
+AliceAndSuperComplexCoral.jpg:
+  caption: "Group leader Dr Alice Rogers diving above a field of highly complex cabbage coral in Palau"
+  credit: "Photo: David Wachenfeld"
+Palau_DiversBlueCorner.jpg:
+  caption: "Group leader Dr Alice Rogers and colleagues diving on a beautiful coral reef in Palau"
+  credit: "Photo: Davide Wachenfeld"
