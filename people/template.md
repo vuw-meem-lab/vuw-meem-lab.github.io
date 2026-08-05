@@ -28,9 +28,18 @@ links:
   link1: https://example.com/first                 # Link icon (use for project, website, or any other link)
   link2: https://example.com/second                # Link icon
   link3: https://example.com/third                 # Link icon
----
 
-# Write a short bio below. You can use **bold**, *italic*, and [links](https://example.com).
+# Write your bio below the closing '---'. Everything above this point (inside
+# the two '---' lines) is the YAML header, where lines starting with '#' are
+# comments and won't be shown. But once you're past the closing '---', you're
+# in the bio itself -- a line starting with '#' there is NOT a comment, it's a
+# markdown heading, and it WILL be shown on the site. So make sure to delete
+# these instructions and replace "Short bio goes here." below, rather than
+# leaving them above the bio text.
+#
+# You can use **bold**, *italic*, and [links](https://example.com) in your bio.
 # Example: Jane is a PhD student studying marine ecology. She loves coding and diving.
 # To reference the current projects page, use: [project name](research.qmd)
+---
+
 Short bio goes here.

@@ -25,6 +25,7 @@ links:
 # Write a short bio below. You can use **bold**, *italic*, and [links](https://example.com).
 # Example: Jane is a PhD student studying marine ecology. She loves coding and diving.
 # To reference the current projects page, use: [project name](research.qmd)
+
 ---
 
 After completing a BSc in biochemistry at the University of Bath, Mollie went on to study for an MSc in conservation and biodiversity at the University of Exeter where her project focused on 

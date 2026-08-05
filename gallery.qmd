@@ -6,7 +6,7 @@ keywords: [gallery, fieldwork, conferences, marine ecology, Wellington, New Zeal
 
 Welcome to the MEEM Lab photo gallery! Here are some highlights of our team presenting at conferences, working in the field, and collaborating together.
 
-```{r print-gallery, echo=FALSE, results='asis'}
+```{r print-gallery, echo=FALSE, message=FALSE, results='asis'}
 library(yaml)
 library(magick)
 gallery_dir <- "images/gallery"
