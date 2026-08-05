@@ -21,7 +21,6 @@ links:
   linkedin: https://www.linkedin.com/in/mollie-rickwood-04b0a9259/
   orcid: https://orcid.org/0000-0002-3715-8915
   researchgate: researchgate.net/profile/Mollie-Rickwood?ev=hdr_xprf&_sg=SiV2QYrmR6JTR_xkU7Wo1hjUvzXc6Gz-GMXnsBB-uKI9SaAXJszcaBtotgEOptghpoHvoyqCd9TcKZThM7aiC5Vg&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19
----
 
 # Write a short bio below. You can use **bold**, *italic*, and [links](https://example.com).
 # Example: Jane is a PhD student studying marine ecology. She loves coding and diving.
