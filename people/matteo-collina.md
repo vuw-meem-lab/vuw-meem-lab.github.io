@@ -42,7 +42,7 @@ links:
 # To reference the current projects page, use: [project name](research.qmd)
 ---
 
-Matteo Collina, is a Postdoctoral Research Fellow at Te Herenga Waka — Victoria University of Wellington. 
-He works across marine biology, underwater photogrammetry, and immersive media.
+Matteo Collina completed his PhD in Museum and Heritage studies and is currently a Postdoctoral Research Fellow at Te Herenga Waka — Victoria University of Wellington.
+He works across marine biology and digital technologies, with a focus on underwater photogrammetry, machine-learning and immersive media.
 Matteo's research bridges science, mātauranga Māori, and 3D/VR storytelling to bring underwater worlds to the surface.
 When not coding or working on 3D models, he loves to dive in caves.
