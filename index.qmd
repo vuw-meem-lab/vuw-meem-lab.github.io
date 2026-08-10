@@ -29,8 +29,8 @@ Explore our research, meet our people, and get involved!
 
 
 <div class="hover-photo" style="max-width: 100%;" tabindex="0">
-<img src="images/sevengill.jpg" style="max-width: 100%;" alt="reef shark">
-<div class="hover-photo-overlay"><span>Lab shark photo</span></div>
+<img src="images/sevengill.jpeg" style="max-width: 100%;" alt="reef shark">
+<div class="hover-photo-overlay"><span>Credit: Matteo Collina</span></div>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 3rem; margin: 3rem auto 2rem auto; flex-wrap: wrap;">
