@@ -9,7 +9,7 @@
 # All fields are optional except 'name'.
 # For any field you don't want to use, you can delete the line or leave it as is.
 
-name: Matteo Collina  # REQUIRED: Replace with your full name (e.g., Jane Doe)
+name: Dr. Matteo Collina  # REQUIRED: Replace with your full name (e.g., Jane Doe)
 vuwemail: matteo.collina@vuw.ac.nz  # OPTIONAL: Your VUW email address (shown as a small mail icon next to your name)
 pronouns: he/him  # OPTIONAL: Your pronouns (e.g., she/her, he/him, they/them)
 photo: images/people/matteocollina.png  # OPTIONAL: Path to your photo (or leave as is for a placeholder)
