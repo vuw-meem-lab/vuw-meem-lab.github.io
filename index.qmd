@@ -29,7 +29,7 @@ Explore our research, meet our people, and get involved!
 
 
 <div class="hover-photo" style="max-width: 100%;" tabindex="0">
-<img src="images/shark.jpg" style="max-width: 100%;" alt="reef shark">
+<img src="images/sevengill.jpg" style="max-width: 100%;" alt="reef shark">
 <div class="hover-photo-overlay"><span>Lab shark photo</span></div>
 </div>
 
