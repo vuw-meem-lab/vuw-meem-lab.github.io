@@ -25,7 +25,7 @@ links:
   orcid: https://www.linkedin.com/in/collinamatteo     # ORCID icon
   scholar: https://scholar.google.com/citations?user=jm6Fz6QAAAAJ&hl=en  # Google Scholar icon
   # rearchgate: https://www.researchgate.net/profile/Example # ResearchGate icon
-  instagram: https://instagram.com/matteocollina_uwp                 # Link icon (use for project, website, or any other link)
+  instagram: https://instagram.com/matteocollina_uwp                 # Instagram icon
   link2: https://example.com/second                # Link icon
   link3: https://example.com/third                 # Link icon
 
