@@ -12,7 +12,7 @@
 name: Dr. Matteo Collina  # REQUIRED: Replace with your full name (e.g., Jane Doe)
 vuwemail: matteo.collina@vuw.ac.nz  # OPTIONAL: Your VUW email address (shown as a small mail icon next to your name)
 pronouns: he/him  # OPTIONAL: Your pronouns (e.g., she/her, he/him, they/them)
-photo: images/people/matteocollina.png  # OPTIONAL: Path to your photo (or leave as is for a placeholder)
+photo: images/people/matteo-collina.jpg  # OPTIONAL: Path to your photo (or leave as is for a placeholder)
 role: postdoc   # RECOMMENDED: Choose one - postdoc, ra, phd, or masters (e.g., ra). Decides which section you appear in.
 year_started: 2026  # RECOMMENDED: The year you started (e.g., 2024). Decides your order within your section.
 # year_end is not needed here -- only add it once you've left the lab and moved this file to people/past/ (see top of this file).
